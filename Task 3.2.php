@@ -1,0 +1,1 @@
+SELECT 'users.id', 'users.login' FROM 'users' inner join 'objects' on users.object_id=objects.id

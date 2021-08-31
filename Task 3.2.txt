@@ -1,0 +1,2 @@
+Запрос на получение id и login пользователя, объекты которых есть в таблице objects
+SELECT 'users.id', 'users.login' FROM 'users' inner join 'objects' on users.object_id=objects.id
